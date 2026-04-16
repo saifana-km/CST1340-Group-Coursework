@@ -4,14 +4,14 @@
 
 <!-- INSTRUMENT -->
 <!ELEMENT Instrument (InstrumentID, InstrumentName, Brand, InstrumentPrice)>
-<!ELEMENT InstrumentID (#PCDATA)>
+<!ATTLIST Instrument id ID #REQUIRED>
 <!ELEMENT InstrumentName (#PCDATA)>
 <!ELEMENT Brand (#PCDATA)>
 <!ELEMENT InstrumentPrice (#PCDATA)>
 
 <!-- VINYL -->
 <!ELEMENT Vinyl (VinylID, Title, Artist, Genre, VinylPrice)>
-<!ELEMENT VinylID (#PCDATA)>
+<!ATTLIST Vinyl id ID #REQUIRED>
 <!ELEMENT Title (#PCDATA)>
 <!ELEMENT Artist (#PCDATA)>
 <!ELEMENT Genre (#PCDATA)>
@@ -19,13 +19,13 @@
 
 <!-- CUSTOMER -->
 <!ELEMENT Customer (CustomerID, CustomerName, Email, Phone)>
-<!ELEMENT CustomerID (#PCDATA)>
+<!ATTLIST Customer id ID #REQUIRED>
 <!ELEMENT CustomerName (#PCDATA)>
 <!ELEMENT Email (#PCDATA)>
 <!ELEMENT Phone (#PCDATA)>
 
 <!-- EMPLOYEE -->
 <!ELEMENT Employee (EmployeeID, EmployeeName, Role)>
-<!ELEMENT EmployeeID (#PCDATA)>
+<!ATTLIST Employee id ID #REQUIRED>
 <!ELEMENT EmployeeName (#PCDATA)>
 <!ELEMENT Role (#PCDATA)>
