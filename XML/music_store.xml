@@ -1,5 +1,6 @@
 <!-- JUST PLACEHOLDERS -->
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="music_store.dtd" type="application/xml-dtd"?>
 <?xml-stylesheet type="text/xsl" href="music_store.xsl"?>
 <!DOCTYPE MusicStore SYSTEM "music_store.dtd">
 <MusicStore>
