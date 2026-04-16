@@ -1,2 +1,36 @@
-#XML FILE 
+<!-- JUST PLACEHOLDERS -->
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="musicstore.xsl"?>
+<!DOCTYPE MusicStore SYSTEM "music_store.dtd">
+<MusicStore>
+
+    <Instrument>
+        <ID>###</ID>
+        <Name>###</Name>
+        <Brand>###</Brand>
+        <Price>###</Price>
+    </Instrument>
+  
+    <Vinyl>
+        <ID>###</ID>
+        <Title>###</Title>
+        <Artist>###</Artist>
+        <Genre>###</Genre>
+        <Price>###</Price>
+        <Year>###</Year>
+    </Vinyl>
+
+    <Customer>
+        <ID>###</ID>
+        <Name>###</Name>
+        <Email>###</Email>
+        <Phone>###</Phone>
+    </Customer>
+  
+    <Employee>
+        <ID>###</ID>
+        <Name>###</Name>
+        <Role>###</Role>
+    </Employee>
+  
+</MusicStore>
