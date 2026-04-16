@@ -1,9 +1,25 @@
 <!--PLACEHOLDER FOR NOW-->
-<!ELEMENT MusicStore (Album+)>
-<!ELEMENT Album (ID, Title, Artist, Genre, Price, Year)>
+<!--DATA SCHEMA STRUCTURE-->
+<!ELEMENT MusicStore (Instrument*, Vinyl*, Customer*, Employee*)>
+
+<!-- INSTRUMENT -->
+<!ELEMENT Instrument (ID, Name, Brand, Price)>
 <!ELEMENT ID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Brand (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+
+<!-- VINYL -->
+<!ELEMENT Vinyl (ID, Title, Artist, Genre, Price)>
 <!ELEMENT Title (#PCDATA)>
 <!ELEMENT Artist (#PCDATA)>
 <!ELEMENT Genre (#PCDATA)>
-<!ELEMENT Price (#PCDATA)>
-<!ELEMENT Year (#PCDATA)>
+
+<!-- CUSTOMER -->
+<!ELEMENT Customer (ID, Name, Email, Phone)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+
+<!-- EMPLOYEE -->
+<!ELEMENT Employee (ID, Name, Role)>
+<!ELEMENT Role (#PCDATA)>
