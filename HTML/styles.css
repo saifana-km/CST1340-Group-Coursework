@@ -1,4 +1,3 @@
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -9,9 +8,20 @@ ul {
   justify-content: center;
 }
 ul li a {
-  display: block;
+  display: inline;
+  justify-items: center;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
   
 }
+  .logo-img {
+  height: 50px; /* Control the logo size here */
+  width: auto;  /* Maintains aspect ratio */
+}
+  .icon-img {
+  height: 25px; /* Control the icon size here */
+  width: auto;  /* Maintains ratio of the shape*/
+  margin: auto;
+}
+
