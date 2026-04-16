@@ -1,40 +1,156 @@
 <!-- JUST PLACEHOLDERS -->
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="music_store.dtd" type="application/xml-dtd"?>
 <?xml-stylesheet type="text/xsl" href="music_store.xsl"?>
 <!DOCTYPE MusicStore SYSTEM "music_store.dtd">
-<MusicStore>
 
+<MusicStore>
     <!-- Instruments -->
     <Instrument>
-        <InstrumentID>###</InstrumentID>
-        <InstrumentName>###</InstrumentName>
-        <Brand>###</Brand>
-        <InstrumentPrice>###</InstrumentPrice>
+        <ID>I001</ID>
+        <Name>Stratocaster</Name>
+        <Brand>Fender</Brand>
+        <Price>1499.99</Price>
     </Instrument>
 
-    <!-- Vinyla -->
+    <Instrument>
+        <ID>I002</ID>
+        <Name>Les Paul Standard</Name>
+        <Brand>Gibson</Brand>
+        <Price>2499.99</Price>
+    </Instrument>
+
+    <Instrument>
+        <ID>I003</ID>
+        <Name>FA-125CE</Name>
+        <Brand>Fender</Brand>
+        <Price>299.99</Price>
+    </Instrument>
+
+    <Instrument>
+        <ID>I004</ID>
+        <Name>P-Bass</Name>
+        <Brand>Fender</Brand>
+        <Price>849.99</Price>
+    </Instrument>
+
+    <Instrument>
+        <ID>I005</ID>
+        <Name>DW Collector's Series</Name>
+        <Brand>DW Drums</Brand>
+        <Price>3999.99</Price>
+    </Instrument>
+
+    <!-- Vinyls -->
     <Vinyl>
-        <VinylID>###</VinylID>
-        <Title>###</Title>
-        <Artist>###</Artist>
-        <Genre>###</Genre>
-        <VinylPrice>###</VinylPrice>
+        <ID>V001</ID>
+        <Title>Abbey Road</Title>
+        <Artist>The Beatles</Artist>
+        <Genre>Rock</Genre>
+        <Price>29.99</Price>
+        <Year>1969</Year>
     </Vinyl>
 
-    <!-- Customers -->
+    <Vinyl>
+        <ID>V002</ID>
+        <Title>Thriller</Title>
+        <Artist>Michael Jackson</Artist>
+        <Genre>Pop</Genre>
+        <Price>24.99</Price>
+        <Year>1982</Year>
+    </Vinyl>
+
+    <Vinyl>
+        <ID>V003</ID>
+        <Title>Kind of Blue</Title>
+        <Artist>Miles Davis</Artist>
+        <Genre>Jazz</Genre>
+        <Price>34.99</Price>
+        <Year>1959</Year>
+    </Vinyl>
+
+    <Vinyl>
+        <ID>V004</ID>
+        <Title>Led Zeppelin IV</Title>
+        <Artist>Led Zeppelin</Artist>
+        <Genre>Rock</Genre>
+        <Price>27.99</Price>
+        <Year>1971</Year>
+    </Vinyl>
+
+    <Vinyl>
+        <ID>V005</ID>
+        <Title>To Pimp a Butterfly</Title>
+        <Artist>Kendrick Lamar</Artist>
+        <Genre>Hip-Hop</Genre>
+        <Price>31.99</Price>
+        <Year>2015</Year>
+    </Vinyl>
+
+    <!-- Customer -->
     <Customer>
-        <CustomerID>###</CustomerID>
-        <CustomerName>###</CustomerName>
-        <Email>###</Email>
-        <Phone>###</Phone>
+        <ID>C001</ID>
+        <Name>Alice Monroe</Name>
+        <Email>alice.monroe@email.com</Email>
+        <Phone>+1-555-0101</Phone>
+    </Customer>
+
+    <Customer>
+        <ID>C002</ID>
+        <Name>James Hartley</Name>
+        <Email>j.hartley@email.com</Email>
+        <Phone>+1-555-0234</Phone>
+    </Customer>
+
+    <Customer>
+        <ID>C003</ID>
+        <Name>Sofia Reyes</Name>
+        <Email>sofia.reyes@email.com</Email>
+        <Phone>+1-555-0378</Phone>
+    </Customer>
+
+    <Customer>
+        <ID>C004</ID>
+        <Name>Daniel Park</Name>
+        <Email>dan.park@email.com</Email>
+        <Phone>+1-555-0412</Phone>
+    </Customer>
+
+    <Customer>
+        <ID>C005</ID>
+        <Name>Priya Nair</Name>
+        <Email>priya.nair@email.com</Email>
+        <Phone>+1-555-0567</Phone>
     </Customer>
 
     <!-- Employees -->
     <Employee>
-        <EmployeeID>###</EmployeeID>
-        <EmployeeName>###</EmployeeName>
-        <Role>###</Role>
+        <ID>E001</ID>
+        <Name>Tom Bassett</Name>
+        <Role>Store Manager</Role>
+    </Employee>
+
+    <Employee>
+        <ID>E002</ID>
+        <Name>Clara Hughes</Name>
+        <Role>Sales Associate</Role>
+    </Employee>
+
+    <Employee>
+        <ID>E003</ID>
+        <Name>Marco Diaz</Name>
+        <Role>Instrument Technician</Role>
+    </Employee>
+
+    <Employee>
+        <ID>E004</ID>
+        <Name>Yuki Tanaka</Name>
+        <Role>Vinyl Specialist</Role>
+    </Employee>
+
+    <Employee>
+        <ID>E005</ID>
+        <Name>Lena Fischer</Name>
+        <Role>Cashier</Role>
     </Employee>
 
 </MusicStore>
