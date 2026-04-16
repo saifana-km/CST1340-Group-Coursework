@@ -1,0 +1,9 @@
+<!--PLACEHOLDER FOR NOW-->
+<!ELEMENT MusicStore (Album+)>
+<!ELEMENT Album (ID, Title, Artist, Genre, Price, Year)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Artist (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
