@@ -1,48 +1,41 @@
-<!-- JUST PLACEHOLDERS -->
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="music_store.xsl"?>
 <!DOCTYPE MusicStore SYSTEM "music_store.dtd">
+<?xml-stylesheet type="text/xsl" href="music_store.xsl"?>
 
 <MusicStore>
     <!-- Instruments -->
-    <Instrument>
-        <ID>I001</ID>
+    <Instrument id="I001">
         <Name>Stratocaster</Name>
         <Brand>Fender</Brand>
         <Price>1499.99</Price>
     </Instrument>
 
-    <Instrument>
-        <ID>I002</ID>
+    <Instrument id="I002">
         <Name>Les Paul Standard</Name>
         <Brand>Gibson</Brand>
         <Price>2499.99</Price>
     </Instrument>
 
-    <Instrument>
-        <ID>I003</ID>
+    <Instrument id="I003">
         <Name>FA-125CE</Name>
         <Brand>Fender</Brand>
         <Price>299.99</Price>
     </Instrument>
 
-    <Instrument>
-        <ID>I004</ID>
+    <Instrument id="I004">
         <Name>P-Bass</Name>
         <Brand>Fender</Brand>
         <Price>849.99</Price>
     </Instrument>
 
-    <Instrument>
-        <ID>I005</ID>
+    <Instrument id="I005">
         <Name>DW Collector's Series</Name>
         <Brand>DW Drums</Brand>
         <Price>3999.99</Price>
     </Instrument>
 
     <!-- Vinyls -->
-    <Vinyl>
-        <ID>V001</ID>
+    <Vinyl id="V001">
         <Title>Abbey Road</Title>
         <Artist>The Beatles</Artist>
         <Genre>Rock</Genre>
@@ -50,8 +43,7 @@
         <Year>1969</Year>
     </Vinyl>
 
-    <Vinyl>
-        <ID>V002</ID>
+    <Vinyl id="V002">
         <Title>Thriller</Title>
         <Artist>Michael Jackson</Artist>
         <Genre>Pop</Genre>
@@ -59,8 +51,7 @@
         <Year>1982</Year>
     </Vinyl>
 
-    <Vinyl>
-        <ID>V003</ID>
+    <Vinyl id="V003">
         <Title>Kind of Blue</Title>
         <Artist>Miles Davis</Artist>
         <Genre>Jazz</Genre>
@@ -68,8 +59,7 @@
         <Year>1959</Year>
     </Vinyl>
 
-    <Vinyl>
-        <ID>V004</ID>
+    <Vinyl id="V004">
         <Title>Led Zeppelin IV</Title>
         <Artist>Led Zeppelin</Artist>
         <Genre>Rock</Genre>
@@ -77,8 +67,7 @@
         <Year>1971</Year>
     </Vinyl>
 
-    <Vinyl>
-        <ID>V005</ID>
+    <Vinyl id="V005">
         <Title>To Pimp a Butterfly</Title>
         <Artist>Kendrick Lamar</Artist>
         <Genre>Hip-Hop</Genre>
@@ -86,69 +75,59 @@
         <Year>2015</Year>
     </Vinyl>
 
-    <!-- Customer -->
-    <Customer>
-        <ID>C001</ID>
+    <!-- Customers -->
+    <Customer id="C001">
         <Name>Alice Monroe</Name>
         <Email>alice.monroe@email.com</Email>
         <Phone>+1-555-0101</Phone>
     </Customer>
 
-    <Customer>
-        <ID>C002</ID>
+    <Customer id="C002">
         <Name>James Hartley</Name>
         <Email>j.hartley@email.com</Email>
         <Phone>+1-555-0234</Phone>
     </Customer>
 
-    <Customer>
-        <ID>C003</ID>
+    <Customer id="C003">
         <Name>Sofia Reyes</Name>
         <Email>sofia.reyes@email.com</Email>
         <Phone>+1-555-0378</Phone>
     </Customer>
 
-    <Customer>
-        <ID>C004</ID>
+    <Customer id="C004">
         <Name>Daniel Park</Name>
         <Email>dan.park@email.com</Email>
         <Phone>+1-555-0412</Phone>
     </Customer>
 
-    <Customer>
-        <ID>C005</ID>
+    <Customer id="C005">
         <Name>Priya Nair</Name>
         <Email>priya.nair@email.com</Email>
         <Phone>+1-555-0567</Phone>
     </Customer>
 
     <!-- Employees -->
-    <Employee>
-        <ID>E001</ID>
+    <Employee id="E001">
         <Name>Tom Bassett</Name>
         <Role>Store Manager</Role>
     </Employee>
 
-    <Employee>
-        <ID>E002</ID>
+    <Employee id="E002">
         <Name>Clara Hughes</Name>
         <Role>Sales Associate</Role>
     </Employee>
 
-    <Employee>
-        <ID>E003</ID>
+    <Employee id="E003">
         <Name>Marco Diaz</Name>
         <Role>Instrument Technician</Role>
     </Employee>
 
-    <Employee>
-        <ID>E004</ID>
+    <Employee id="E004">
         <Name>Yuki Tanaka</Name>
         <Role>Vinyl Specialist</Role>
     </Employee>
 
-    <Employee>
-        <ID>E005</ID>
+    <Employee id="E005">
         <Name>Lena Fischer</Name>
         <Role>Cashier</Role>
     </Employee>
