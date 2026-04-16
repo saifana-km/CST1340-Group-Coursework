@@ -1,2 +1,3 @@
 # CST1340 GROUP COURSEWORK
-## YADA YADA
+## Music Store Website
+### A website that is html and xml-based that is all-inclusive of instruments, and vinyls!
