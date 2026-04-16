@@ -3,23 +3,29 @@
 <!ELEMENT MusicStore (Instrument*, Vinyl*, Customer*, Employee*)>
 
 <!-- INSTRUMENT -->
-<!ELEMENT Instrument (ID, Name, Brand, Price)>
-<!ELEMENT ID (#PCDATA)>
-<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Instrument (InstrumentID, InstrumentName, Brand, InstrumentPrice)>
+<!ELEMENT InstrumentID (#PCDATA)>
+<!ELEMENT InstrumentName (#PCDATA)>
 <!ELEMENT Brand (#PCDATA)>
-<!ELEMENT Price (#PCDATA)>
+<!ELEMENT InstrumentPrice (#PCDATA)>
 
 <!-- VINYL -->
-<!ELEMENT Vinyl (ID, Title, Artist, Genre, Price)>
+<!ELEMENT Vinyl (VinylID, Title, Artist, Genre, VinylPrice)>
+<!ELEMENT VinylID (#PCDATA)>
 <!ELEMENT Title (#PCDATA)>
 <!ELEMENT Artist (#PCDATA)>
 <!ELEMENT Genre (#PCDATA)>
+<!ELEMENT VinylPrice (#PCDATA)>
 
 <!-- CUSTOMER -->
-<!ELEMENT Customer (ID, Name, Email, Phone)>
+<!ELEMENT Customer (CustomerID, CustomerName, Email, Phone)>
+<!ELEMENT CustomerID (#PCDATA)>
+<!ELEMENT CustomerName (#PCDATA)>
 <!ELEMENT Email (#PCDATA)>
 <!ELEMENT Phone (#PCDATA)>
 
 <!-- EMPLOYEE -->
-<!ELEMENT Employee (ID, Name, Role)>
+<!ELEMENT Employee (EmployeeID, EmployeeName, Role)>
+<!ELEMENT EmployeeID (#PCDATA)>
+<!ELEMENT EmployeeName (#PCDATA)>
 <!ELEMENT Role (#PCDATA)>
