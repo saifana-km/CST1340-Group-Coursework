@@ -5,33 +5,36 @@
 <!DOCTYPE MusicStore SYSTEM "music_store.dtd">
 <MusicStore>
 
+    <!-- Instruments -->
     <Instrument>
-        <ID>###</ID>
-        <Name>###</Name>
+        <InstrumentID>###</InstrumentID>
+        <InstrumentName>###</InstrumentName>
         <Brand>###</Brand>
-        <Price>###</Price>
+        <InstrumentPrice>###</InstrumentPrice>
     </Instrument>
-  
+
+    <!-- Vinyla -->
     <Vinyl>
-        <ID>###</ID>
+        <VinylID>###</VinylID>
         <Title>###</Title>
         <Artist>###</Artist>
         <Genre>###</Genre>
-        <Price>###</Price>
-        <Year>###</Year>
+        <VinylPrice>###</VinylPrice>
     </Vinyl>
 
+    <!-- Customers -->
     <Customer>
-        <ID>###</ID>
-        <Name>###</Name>
+        <CustomerID>###</CustomerID>
+        <CustomerName>###</CustomerName>
         <Email>###</Email>
         <Phone>###</Phone>
     </Customer>
-  
+
+    <!-- Employees -->
     <Employee>
-        <ID>###</ID>
-        <Name>###</Name>
+        <EmployeeID>###</EmployeeID>
+        <EmployeeName>###</EmployeeName>
         <Role>###</Role>
     </Employee>
-  
+
 </MusicStore>
