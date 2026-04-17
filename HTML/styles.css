@@ -7,6 +7,7 @@ nav {
     align-items: center;
     justify-content: space-between; /* logo | links | icons */
     box-sizing: border-box;
+    height: 65px;
 }
 
 .logo-link {
@@ -15,7 +16,7 @@ nav {
 }
 
 .logo-img {
-    height: 50px;
+    height: 65px;
     width: auto;
 }
 
