@@ -1,27 +1,67 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  background-color: #2d94ff;
-   display: flex;
-  justify-content: center;
+nav {
+      width: 100%;
+      padding: 1 rem 5%;
+    background-color: #2d94ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
-ul li a {
-  display: inline;
-  justify-items: center;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
+
+
+.nav-group{
+    display: flex;
+    align-items:center;
+    gap: 64 px;}
+
+
+ul {
+    text-decoration: none;
+      list-style-type: none;
+      margin: auto;
+      display: flex;
+      gap: 64 px;
+      justify-content: center;
+      align-items: center;
+}
+
+
+.links {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 64 px;;
   
 }
-  .logo-img {
-  height: 50px; /* Control the logo size here */
-  width: auto;  /* Maintains aspect ratio */
+
+
+a {color: white;
+  padding: 14px 16px;
+  gap: 64 px;
+  display: flex;
+  justify-content: center;
+  align-self: center;}
+  
+/*Figuring out the Logo*/
+
+.logo-img {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px; /* Control the logo size here */
+    width: auto;  /* Maintains aspect ratio */
+    gap: 64 px;
 }
-  .icon-img {
-  height: 25px; /* Control the icon size here */
-  width: auto;  /* Maintains ratio of the shape*/
-  margin: auto;
-}
+
+/*This is just me trying to figure out how to format the icons*/
+
+.icon-img {
+    display: flex;
+    justify-content: flex-end;
+    height: 25px; /* Control the icon size here */
+    width: auto;  /* Maintains ratio of the shape*/
+    margin: auto;
+    align-self: flex;
+    gap: 64 px;
+  }
 
