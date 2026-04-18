@@ -1,3 +1,5 @@
+/*Nav bar CSS do not touch, included in every page*/
+
 nav {
     width: 100%;
     padding: 1rem 5%;
@@ -47,4 +49,4 @@ ul.links a {
     height: 25px;
     width: auto;
 }
-
+/* Contact Us Page */
