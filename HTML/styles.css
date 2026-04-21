@@ -51,3 +51,59 @@ ul.links a {
     width: auto;
 }
 /* Contact Us Page */
+
+/* Home page */
+.welcome {
+	background: white;
+	position: relative;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+.welcome h1 {
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 65px; 
+	position: relative;
+	bottom: 30px;
+    text-decoration: none;
+}
+
+.logo-inline {
+	height: 100px;
+	width: auto;
+	position: relative;
+	top: 35px;
+	right: 15px;
+}
+
+.welcome p {
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 28px; 
+	position: relative;
+	bottom: 65px;
+	right: 10px;
+    text-decoration: none;
+}
+
+.gradient-word {
+	background: linear-gradient(#6fb5ff, #714eff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* Section Gradient */
+
+.welcome::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	height: 30px;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent);
+	pointer-events: none;
+}
