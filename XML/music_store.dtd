@@ -12,12 +12,13 @@
 
 
 <!-- VINYL -->
-<!ELEMENT Vinyl (Title, Artist, Genre, VinylPrice)>
+<!ELEMENT Vinyl (Title, Artist, Genre, VinylPrice, VinylImage)>
 <!ATTLIST Vinyl id ID #REQUIRED>
 <!ELEMENT Title (#PCDATA)>
 <!ELEMENT Artist (#PCDATA)>
 <!ELEMENT Genre (#PCDATA)>
 <!ELEMENT VinylPrice (#PCDATA)>
+<!ELEMENT VinylImage (#PCDATA)>
 
 <!-- CUSTOMER -->
 <!ELEMENT Customer (CustomerName, Email, Phone)>

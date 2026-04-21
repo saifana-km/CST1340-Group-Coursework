@@ -45,6 +45,7 @@
         <Artist>The Beatles</Artist>
         <Genre>Rock</Genre>
         <VinylPrice>29.99</VinylPrice>
+        <VinylImage></VinylImage> <!-- Just insert the image pathway here -->
     </Vinyl>
 
     <Vinyl id="V002">
@@ -52,6 +53,7 @@
         <Artist>Michael Jackson</Artist>
         <Genre>Pop</Genre>
         <VinylPrice>24.99</VinylPrice>
+        <VinylImage></VinylImage>
     </Vinyl>
 
     <Vinyl id="V003">
@@ -59,6 +61,7 @@
         <Artist>Miles Davis</Artist>
         <Genre>Jazz</Genre>
         <VinylPrice>34.99</VinylPrice>
+        <VinylImage></VinylImage>
     </Vinyl>
 
     <Vinyl id="V004">
@@ -66,6 +69,7 @@
         <Artist>Led Zeppelin</Artist>
         <Genre>Rock</Genre>
         <VinylPrice>27.99</VinylPrice>
+        <VinylImage></VinylImage>
     </Vinyl>
 
     <Vinyl id="V005">
@@ -73,6 +77,7 @@
         <Artist>Kendrick Lamar</Artist>
         <Genre>Hip-Hop</Genre>
         <VinylPrice>31.99</VinylPrice>
+        <VinylImage></VinylImage>
     </Vinyl>
 
     <!-- Customers -->
