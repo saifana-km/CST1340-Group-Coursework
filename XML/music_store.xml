@@ -8,30 +8,35 @@
         <InstrumentName>Stratocaster</InstrumentName>
         <Brand>Fender</Brand>
         <InstrumentPrice>1499.99</InstrumentPrice>
+        <InstrumentImage>images/instruments/stratocaster.webp</InstrumentImage>
     </Instrument>
 
     <Instrument id="I002">
         <InstrumentName>Les Paul Standard</InstrumentName>
         <Brand>Gibson</Brand>
         <InstrumentPrice>2499.99</InstrumentPrice>
+        <InstrumentImage>images/instruments/le_paul_standard.jpg</InstrumentImage>
     </Instrument>
 
     <Instrument id="I003">
         <InstrumentName>FA-125CE</InstrumentName>
         <Brand>Fender</Brand>
         <InstrumentPrice>299.99</InstrumentPrice>
+        <InstrumentImage>images/instruments/FA-125CE.webp</InstrumentImage>
     </Instrument>
 
     <Instrument id="I004">
         <InstrumentName>P-Bass</InstrumentName>
         <Brand>Fender</Brand>
         <InstrumentPrice>849.99</InstrumentPrice>
+        <InstrumentImage>images/instruments/P-Bass.jpg</InstrumentImage>
     </Instrument>
 
     <Instrument id="I005">
         <InstrumentName>DW Collector's Series</InstrumentName>
         <Brand>DW Drums</Brand>
         <InstrumentPrice>3999.99</InstrumentPrice>
+        <InstrumentImage>images/instruments/DW_Collectors_Series.webp</InstrumentImage>
     </Instrument>
 
     <!-- Vinyls -->

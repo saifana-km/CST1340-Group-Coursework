@@ -1,20 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?> <!--PLACEHOLDER FOR XSL
-FILE-->
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
         <html>
+            <!-- HEAD -->
             <head>
-                <title>Vinyl and Instrument Catalogue</title> <!-- Working Title -->
+                <title>Vinyl and Instrument Catalogue</title>
                 <link rel="stylesheet" type="text/css" href="../HTML/styles.css" />
                 <link rel="stylesheet" type="text/css" href="catalogue.css" />
             </head>
+
             <body>
+
+                <!-- NAVBAR -->
                 <nav>
-                    <!-- Logo: left -->
+                    <!-- Logo: Left -->
                     <a href="MelodyHomepage.html" class="logo-link">
                         <img src="../HTML/logo.png" alt="Company Logo" class="logo-img" />
                     </a>
-                    <!-- Links: center -->
+
+                    <!-- Links: Center -->
                     <ul class="links">
                         <li>
                             <a href="../HTML/MelodyCatalog.html">Catalog</a>
@@ -27,29 +31,36 @@ FILE-->
                         </li>
                     </ul>
 
-                    <!-- Icons: right -->
+                    <!-- Icons: Right -->
                     <div class="icon-group">
                         <img src="../HTML/Icons.png" alt="Icons" class="icon-img" />
                     </div>
                 </nav>
 
+                <!-- MAIN CONTENT-->
                 <div class="container">
-                    <h1 style="font-weight: normal">Vinyls</h1>
+
+                    <!-- VINYLS SECTION -->
+                    <h1>Vinyls</h1>
                     <hr />
 
+                    <!-- INSTRUMENTS SECTION -->
                     <h1>Instruments</h1>
                     <hr />
+
+                    <!-- INSTRUMENT CARDS: Loops through each Instrument in MusicStore -->
                     <div class="row">
                         <xsl:for-each select="MusicStore/Instrument">
                             <div class="column">
                                 <div class="card">
 
-                                    <img
-                                        src="https://classic-educational.ae/cdn/shop/files/037-3152-506_1200x.jpg?v=1710094851"
-                                        alt="guitar" />
+                                    <!-- Instrument Image: src and alt pulled from XML -->
+                                    <img src="{InstrumentImage}" alt="{InstrumentName}" />
 
+                                    <!-- Instrument Name -->
                                     <p><xsl:value-of select="InstrumentName" /></p>
 
+                                    <!-- Instrument Price -->
                                     <p><b>
                                         <xsl:value-of select="InstrumentPrice" />
                                     </b></p>

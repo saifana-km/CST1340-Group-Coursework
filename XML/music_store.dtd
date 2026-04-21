@@ -3,11 +3,13 @@
 <!ELEMENT MusicStore (Instrument*, Vinyl*, Customer*, Employee*)>
 
 <!-- INSTRUMENT -->
-<!ELEMENT Instrument (InstrumentName, Brand, InstrumentPrice)>
+<!ELEMENT Instrument (InstrumentName, Brand, InstrumentPrice, InstrumentImage)>
 <!ATTLIST Instrument id ID #REQUIRED>
 <!ELEMENT InstrumentName (#PCDATA)>
 <!ELEMENT Brand (#PCDATA)>
 <!ELEMENT InstrumentPrice (#PCDATA)>
+<!ELEMENT InstrumentImage (#PCDATA)>
+
 
 <!-- VINYL -->
 <!ELEMENT Vinyl (Title, Artist, Genre, VinylPrice)>
