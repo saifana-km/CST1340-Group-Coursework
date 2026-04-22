@@ -5,33 +5,38 @@
 <MusicStore>
     <!-- Instruments -->
     <Instrument id="I001">
-        <Name>Stratocaster</Name>
+        <InstrumentName>Stratocaster</InstrumentName>
         <Brand>Fender</Brand>
-        <Price>1499.99</Price>
+        <InstrumentPrice>1499.99</InstrumentPrice>
+        <InstrumentImage>images/instruments/stratocaster.webp</InstrumentImage>
     </Instrument>
 
     <Instrument id="I002">
-        <Name>Les Paul Standard</Name>
+        <InstrumentName>Les Paul Standard</InstrumentName>
         <Brand>Gibson</Brand>
-        <Price>2499.99</Price>
+        <InstrumentPrice>2499.99</InstrumentPrice>
+        <InstrumentImage>images/instruments/le_paul_standard.jpg</InstrumentImage>
     </Instrument>
 
     <Instrument id="I003">
-        <Name>FA-125CE</Name>
+        <InstrumentName>FA-125CE</InstrumentName>
         <Brand>Fender</Brand>
-        <Price>299.99</Price>
+        <InstrumentPrice>299.99</InstrumentPrice>
+        <InstrumentImage>images/instruments/FA-125CE.webp</InstrumentImage>
     </Instrument>
 
     <Instrument id="I004">
-        <Name>P-Bass</Name>
+        <InstrumentName>P-Bass</InstrumentName>
         <Brand>Fender</Brand>
-        <Price>849.99</Price>
+        <InstrumentPrice>849.99</InstrumentPrice>
+        <InstrumentImage>images/instruments/P-Bass.jpg</InstrumentImage>
     </Instrument>
 
     <Instrument id="I005">
-        <Name>DW Collector's Series</Name>
+        <InstrumentName>DW Collector's Series</InstrumentName>
         <Brand>DW Drums</Brand>
-        <Price>3999.99</Price>
+        <InstrumentPrice>3999.99</InstrumentPrice>
+        <InstrumentImage>images/instruments/DW_Collectors_Series.webp</InstrumentImage>
     </Instrument>
 
     <!-- Vinyls -->
@@ -39,96 +44,96 @@
         <Title>Abbey Road</Title>
         <Artist>The Beatles</Artist>
         <Genre>Rock</Genre>
-        <Price>29.99</Price>
-        <Year>1969</Year>
+        <VinylPrice>29.99</VinylPrice>
+        <VinylImage></VinylImage> <!-- Just insert the image pathway here -->
     </Vinyl>
 
     <Vinyl id="V002">
         <Title>Thriller</Title>
         <Artist>Michael Jackson</Artist>
         <Genre>Pop</Genre>
-        <Price>24.99</Price>
-        <Year>1982</Year>
+        <VinylPrice>24.99</VinylPrice>
+        <VinylImage></VinylImage>
     </Vinyl>
 
     <Vinyl id="V003">
         <Title>Kind of Blue</Title>
         <Artist>Miles Davis</Artist>
         <Genre>Jazz</Genre>
-        <Price>34.99</Price>
-        <Year>1959</Year>
+        <VinylPrice>34.99</VinylPrice>
+        <VinylImage></VinylImage>
     </Vinyl>
 
     <Vinyl id="V004">
         <Title>Led Zeppelin IV</Title>
         <Artist>Led Zeppelin</Artist>
         <Genre>Rock</Genre>
-        <Price>27.99</Price>
-        <Year>1971</Year>
+        <VinylPrice>27.99</VinylPrice>
+        <VinylImage></VinylImage>
     </Vinyl>
 
     <Vinyl id="V005">
         <Title>To Pimp a Butterfly</Title>
         <Artist>Kendrick Lamar</Artist>
         <Genre>Hip-Hop</Genre>
-        <Price>31.99</Price>
-        <Year>2015</Year>
+        <VinylPrice>31.99</VinylPrice>
+        <VinylImage></VinylImage>
     </Vinyl>
 
     <!-- Customers -->
     <Customer id="C001">
-        <Name>Alice Monroe</Name>
+        <CustomerName>Alice Monroe</CustomerName>
         <Email>alice.monroe@email.com</Email>
         <Phone>+1-555-0101</Phone>
     </Customer>
 
     <Customer id="C002">
-        <Name>James Hartley</Name>
+        <CustomerName>James Hartley</CustomerName>
         <Email>j.hartley@email.com</Email>
         <Phone>+1-555-0234</Phone>
     </Customer>
 
     <Customer id="C003">
-        <Name>Sofia Reyes</Name>
+        <CustomerName>Sofia Reyes</CustomerName>
         <Email>sofia.reyes@email.com</Email>
         <Phone>+1-555-0378</Phone>
     </Customer>
 
     <Customer id="C004">
-        <Name>Daniel Park</Name>
+        <CustomerName>Daniel Park</CustomerName>
         <Email>dan.park@email.com</Email>
         <Phone>+1-555-0412</Phone>
     </Customer>
 
     <Customer id="C005">
-        <Name>Priya Nair</Name>
+        <CustomerName>Priya Nair</CustomerName>
         <Email>priya.nair@email.com</Email>
         <Phone>+1-555-0567</Phone>
     </Customer>
 
     <!-- Employees -->
     <Employee id="E001">
-        <Name>Tom Bassett</Name>
+        <EmployeeName>Tom Bassett</EmployeeName>
         <Role>Store Manager</Role>
     </Employee>
 
     <Employee id="E002">
-        <Name>Clara Hughes</Name>
+        <EmployeeName>Clara Hughes</EmployeeName>
         <Role>Sales Associate</Role>
     </Employee>
 
     <Employee id="E003">
-        <Name>Marco Diaz</Name>
+        <EmployeeName>Marco Diaz</EmployeeName>
         <Role>Instrument Technician</Role>
     </Employee>
 
     <Employee id="E004">
-        <Name>Yuki Tanaka</Name>
+        <EmployeeName>Yuki Tanaka</EmployeeName>
         <Role>Vinyl Specialist</Role>
     </Employee>
 
     <Employee id="E005">
-        <Name>Lena Fischer</Name>
+        <EmployeeName>Lena Fischer</EmployeeName>
         <Role>Cashier</Role>
     </Employee>
 
