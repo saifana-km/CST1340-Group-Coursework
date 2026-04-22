@@ -52,6 +52,34 @@ ul.links a {
 }
 /* Contact Us Page */
 
+.contactus{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: white;
+	position: relative;
+	padding: 20px 20px;
+}
+.contactus h1 {color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 65px; 
+	position: relative;
+	bottom: 30px;
+    text-decoration: none;}
+
+.contactus p {color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 28px; 
+	position: relative;
+	bottom: 65px;
+	right: 10px;
+    text-decoration: none;}
+
+
 /* Home page */
 .welcome {
 	background: white;
