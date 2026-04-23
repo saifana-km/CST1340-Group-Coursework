@@ -15,7 +15,7 @@
 
                 <!-- NAVBAR -->
                 <nav>
-                    <a href="MelodyHomepage.html" class="logo-link">
+                    <a href="../HTML/MelodyHomepage.html" class="logo-link">
                         <img src="../HTML/logo.png" alt="Company Logo" class="logo-img" />
                     </a>
 
