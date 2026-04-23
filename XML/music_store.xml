@@ -2,6 +2,7 @@
 <!DOCTYPE MusicStore SYSTEM "music_store.dtd"> <!--  Referring to attributes and rules in DTD file -->
 <?xml-stylesheet type="text/xsl" href="music_store.xsl"?> <!-- Referring to xsl file, makes XML file into website -->
 
+<!-- Parent Element -->
 <MusicStore>
 
 <!-- Children Elements -->
