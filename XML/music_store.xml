@@ -88,6 +88,22 @@
         <VinylImage>images/vinyls/sevengoblins.jpg</VinylImage>
     </Vinyl>
 
+    <Vinyl id="V007">
+        <Title>New Jeans</Title>
+        <Artist>NewJeans</Artist>
+        <Genre>K-Pop</Genre>
+        <VinylPrice>89.99</VinylPrice>
+        <VinylImage>images/vinyls/newjeans.jpg</VinylImage>
+    </Vinyl>
+
+    <Vinyl id="V008">
+        <Title>Feel My Rhythm</Title>
+        <Artist>Red Velvet</Artist>
+        <Genre>K-Pop</Genre>
+        <VinylPrice>79.99</VinylPrice>
+        <VinylImage>images/vinyls/redvelvet.jpg</VinylImage>
+    </Vinyl>
+
 
     <!-- Customers -->
     <Customer id="C001">
