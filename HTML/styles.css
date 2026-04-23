@@ -246,3 +246,11 @@ th {
 }
 
 /*About Us Page */ 
+.AboutUs {
+	position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    display: grid;
+    padding: 40px 20px;  /* controls spacing above/below */
+    justify-content: center;
+    text-align: center;}
