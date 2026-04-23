@@ -78,7 +78,7 @@
 
                 <!-- RIGHT: SIDEBAR -->
                 <div class="sidebar">
-                    <h2>Trending Vinyls 🔥</h2>
+                    <h2>Trending Vinyls .✦ ݁˖h2>
 
                     <ol class="trending-list">
                         <xsl:for-each select="MusicStore/Vinyl[position() &lt;= 5]">
