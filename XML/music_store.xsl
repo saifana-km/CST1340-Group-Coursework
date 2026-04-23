@@ -21,7 +21,7 @@
 
                     <ul class="links">
                         <li><a href="../XML/music_store.xml">Catalogue</a></li>
-                        <li><a href="../HTML/MelodyHomepage.html">About Us</a></li>
+                        <li><a href="../HTML/AboutUs.html">About Us</a></li>
                         <li><a href="../HTML/contactus.html">Contact</a></li>
                     </ul>
 
