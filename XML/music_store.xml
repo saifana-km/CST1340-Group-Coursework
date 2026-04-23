@@ -104,7 +104,6 @@
         <VinylImage>images/vinyls/redvelvet.jpg</VinylImage>
     </Vinyl>
 
-
     <!-- Customers -->
     <Customer id="C001">
         <CustomerName>Alice Monroe</CustomerName>
