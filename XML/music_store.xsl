@@ -81,6 +81,7 @@
                     <h2>Trending Vinyls .✦ ݁˖</h2>
 
                     <ol class="trending-list">
+                        <!-- Only show the first 5 vinyls as trending items -->
                         <xsl:for-each select="MusicStore/Vinyl[position() &lt;= 5]">
                             <li>
                                 <b><xsl:value-of select="Title" /></b>
