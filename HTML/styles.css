@@ -1,5 +1,5 @@
 /*Nav bar CSS do not touch, included in every page*/
-
+/*Preparing the entire section*/
 nav {
     width: 100%;
     padding: 1rem 5%;
@@ -11,18 +11,18 @@ nav {
     box-sizing: border-box;
     height: 65px;
 }
-
+/*Adding Logo*/
 .logo-link {
     display: flex;
     align-items: center;
 }
-
+/*Adjusting Image Size*/
 .logo-img {
     height: 65px;
     width: auto;
 }
 
-/* Center links */
+/*Aligning links */
 ul.links {
     list-style: none;
     margin: 0;
@@ -31,7 +31,7 @@ ul.links {
     gap: 8px;
     align-items: center;
 }
-
+/*Formatting links*/
 ul.links a {
     color: white;
     font-family: Arial, Helvetica, sans-serif; 
@@ -40,7 +40,7 @@ ul.links a {
     display: block;
 }
 
-/* Icons on the right */
+/* Formatting icons*/
 .icon-group {
     display: flex;
     align-items: center;
@@ -79,7 +79,7 @@ ul.links a {
 	bottom: 65px;
 	right: 10px;
     text-decoration: none;}
-    
+/*Section shadow*/ 
 .contactus::after {
    content: "";
 	position: absolute;
@@ -113,14 +113,14 @@ ul.links a {
 .mapsandtimings img {
     width: 100%; /* image fills its column */
 }
-/*Formatting the tables*/
+/*Formatting the table*/
 table {
     background-color: white;
     border: 1px solid #ccc;
     border-collapse: collapse;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*Formatting table data*/
 td, th {
     border: 1px solid #ccc;
     padding: 12px 20px;
