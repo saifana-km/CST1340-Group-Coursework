@@ -41,44 +41,53 @@
 
     <!-- Vinyls -->
     <Vinyl id="V001">
-        <Title>Abbey Road</Title>
-        <Artist>The Beatles</Artist>
-        <Genre>Rock</Genre>
+        <Title>Beatopia</Title>
+        <Artist>beabadoobee</Artist>
+        <Genre>Indie Pop</Genre>
         <VinylPrice>29.99</VinylPrice>
-        <VinylImage></VinylImage> <!-- Just insert the image pathway here -->
+        <VinylImage>images/vinyls/beebadoobee.jpg</VinylImage>
     </Vinyl>
 
     <Vinyl id="V002">
-        <Title>Thriller</Title>
-        <Artist>Michael Jackson</Artist>
-        <Genre>Pop</Genre>
+        <Title>Master of Puppets</Title>
+        <Artist>Metallica</Artist>
+        <Genre>Heavy Metal</Genre>
         <VinylPrice>24.99</VinylPrice>
-        <VinylImage></VinylImage>
+        <VinylImage>images/vinyls/metallica.jpg</VinylImage>
     </Vinyl>
 
     <Vinyl id="V003">
-        <Title>Kind of Blue</Title>
-        <Artist>Miles Davis</Artist>
-        <Genre>Jazz</Genre>
+        <Title>Slipknot</Title>
+        <Artist>Slipknot</Artist>
+        <Genre>Nu Metal</Genre>
         <VinylPrice>34.99</VinylPrice>
-        <VinylImage></VinylImage>
+        <VinylImage>images/vinyls/slipknot.jpg</VinylImage>
     </Vinyl>
 
     <Vinyl id="V004">
-        <Title>Led Zeppelin IV</Title>
-        <Artist>Led Zeppelin</Artist>
-        <Genre>Rock</Genre>
+        <Title>My World</Title>
+        <Artist>Justin Bieber</Artist>
+        <Genre>Pop</Genre>
         <VinylPrice>27.99</VinylPrice>
-        <VinylImage></VinylImage>
+        <VinylImage>images/vinyls/myworld.png</VinylImage>
     </Vinyl>
 
     <Vinyl id="V005">
-        <Title>To Pimp a Butterfly</Title>
-        <Artist>Kendrick Lamar</Artist>
-        <Genre>Hip-Hop</Genre>
+        <Title>When We Were Younger</Title>
+        <Artist>grentperez</Artist>
+        <Genre>Pop</Genre>
         <VinylPrice>31.99</VinylPrice>
-        <VinylImage></VinylImage>
+        <VinylImage>images/vinyls/whenwewereyounger.jpg</VinylImage>
     </Vinyl>
+
+    <Vinyl id="V006">
+        <Title>Seven Goblins</Title>
+        <Artist>Masayoshi Takanaka</Artist>
+        <Genre>Japanese Jazz</Genre>
+        <VinylPrice>19.99</VinylPrice>
+        <VinylImage>images/vinyls/sevengoblins.jpg</VinylImage>
+    </Vinyl>
+
 
     <!-- Customers -->
     <Customer id="C001">

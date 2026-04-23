@@ -76,3 +76,42 @@ h1 {
         margin-bottom: 20px;
     }
 }
+
+/* ----- SIDE BAR ----- */
+.layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.main {
+    flex: 3;
+}
+
+.sidebar {
+    flex: 1;
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.trending-list li {
+    margin-bottom: 18px;
+    line-height: 1.4;
+}

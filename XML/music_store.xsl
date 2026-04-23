@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
     <xsl:template match="/">
         <html>
+
             <!-- HEAD -->
             <head>
                 <title>Vinyl and Instrument Catalogue</title>
@@ -13,66 +15,86 @@
 
                 <!-- NAVBAR -->
                 <nav>
-                    <!-- Logo: Left -->
                     <a href="MelodyHomepage.html" class="logo-link">
                         <img src="../HTML/logo.png" alt="Company Logo" class="logo-img" />
                     </a>
 
-                    <!-- Links: Center -->
                     <ul class="links">
-                        <li>
-                            <a href="../HTML/MelodyCatalog.html">Catalog</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/MelodyHomepage.html">About Us</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/contactus.html">Contact</a>
-                        </li>
+                        <li><a href="../XML/music_store.xml">Catalogue</a></li>
+                        <li><a href="../HTML/MelodyHomepage.html">About Us</a></li>
+                        <li><a href="../HTML/contactus.html">Contact</a></li>
                     </ul>
 
-                    <!-- Icons: Right -->
                     <div class="icon-group">
                         <img src="../HTML/Icons.png" alt="Icons" class="icon-img" />
                     </div>
                 </nav>
 
-                <!-- MAIN CONTENT-->
-                <div class="container">
+            <div class="layout">
 
-                    <!-- VINYLS SECTION -->
-                    <h1>Vinyls</h1>
-                    <hr />
+                <!-- LEFT: MAIN CONTENT -->
+                <div class="main">
+                    <div class="container">
 
-                    <!-- INSTRUMENTS SECTION -->
-                    <h1>Instruments</h1>
-                    <hr />
+                        <!-- VINYLS SECTION -->
+                        <h1>Vinyls</h1>
+                        <hr />
 
-                    <!-- INSTRUMENT CARDS: Loops through each Instrument in MusicStore -->
-                    <div class="row">
-                        <xsl:for-each select="MusicStore/Instrument">
-                            <div class="column">
-                                <div class="card">
-
-                                    <!-- Instrument Image: src and alt pulled from XML -->
-                                    <img src="{InstrumentImage}" alt="{InstrumentName}" />
-
-                                    <!-- Instrument Name -->
-                                    <p><xsl:value-of select="InstrumentName" /></p>
-
-                                    <!-- Instrument Price -->
-                                    <p><b>
-                                        <xsl:value-of select="InstrumentPrice" />
-                                    </b></p>
-
-                                    <button>Buy</button>
+                        <div class="row">
+                            <xsl:for-each select="MusicStore/Vinyl">
+                                <div class="column">
+                                    <div class="card">
+                                        <img src="{VinylImage}" alt="{Title}" />
+                                        <p><xsl:value-of select="Title" /></p>
+                                        <p class="artist"><xsl:value-of select="Artist" /></p>
+                                        <p><b><xsl:value-of select="VinylPrice" /></b></p>
+                                        <button>Buy</button>
+                                    </div>
+                                    <br />
                                 </div>
-                                <br />
-                            </div>
-                        </xsl:for-each>
+                            </xsl:for-each>
+                        </div>
+
+                        <!-- INSTRUMENTS SECTION -->
+                        <h1>Instruments</h1>
+                        <hr />
+
+                        <div class="row">
+                            <xsl:for-each select="MusicStore/Instrument">
+                                <div class="column">
+                                    <div class="card">
+                                        <img src="{InstrumentImage}" alt="{InstrumentName}" />
+                                        <p><xsl:value-of select="InstrumentName" /></p>
+                                        <p><b><xsl:value-of select="InstrumentPrice" /></b></p>
+                                        <button>Buy</button>
+                                    </div>
+                                    <br />
+                                </div>
+                            </xsl:for-each>
+                        </div>
+
                     </div>
                 </div>
+
+                <!-- RIGHT: SIDEBAR -->
+                <div class="sidebar">
+                    <h2>Trending Vinyls 🔥</h2>
+
+                    <ol class="trending-list">
+                        <xsl:for-each select="MusicStore/Vinyl[position() &lt;= 5]">
+                            <li>
+                                <b><xsl:value-of select="Title" /></b>
+                                <span class="artist"> — <xsl:value-of select="Artist" /></span>
+                            </li>
+                        </xsl:for-each>
+                    </ol>
+
+                </div>
+
+            </div>
+
             </body>
         </html>
     </xsl:template>
+
 </xsl:stylesheet>
