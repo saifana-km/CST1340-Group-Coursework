@@ -186,20 +186,9 @@ th {
 	left: 0;
 	right: 0;
 	bottom: -10px;
-	height: 30px;
+	height: 60px;
 	background: linear-gradient(to bottom, rgba(0, -5, 0, 0.02), transparent);
 	pointer-events: none;
-}
-
-.shopnow {
-	align-items: center;
-	width: 1090px;
-	height: 100px;
-	padding: 40px;
-	margin: auto;
-	position: relative;
-	top: 55px;
-	background-color: #f7f7f7;
 }
 
 .shopnow p {
@@ -213,16 +202,14 @@ th {
     text-decoration: none;
 }
 
-.shopnow ul li {
-	color: black;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	font-size: 22px; 
+.shopnow img {
+	height: 180px;
+	width: auto;
 	position: relative;
-	bottom: 43px;
-	right: 5px;
-    text-decoration: none;
+	left: 135px;
+	bottom: 20px;
 }
+
 
 .shopnow button {
 	background-image: linear-gradient(#6fb5ff, #714eff);
@@ -231,7 +218,7 @@ th {
 	padding: 15px 55px;
 	text-align: center;
 	position: relative;
-	bottom: 135px;
+	top: 20px;
 	text-decoration: none;
 	display: flex;
 	margin: 0 auto;
