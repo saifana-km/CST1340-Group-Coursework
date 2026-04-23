@@ -91,27 +91,32 @@ h1 {
 .sidebar {
     flex: 1;
     background: #f7f7f7;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 30px;
+    border-radius: 12px;
     height: fit-content;
+    max-width: 350px;
+    align-self: flex-start;
+    margin-top: 0; 
 }
 
 .sidebar h2 {
-    margin-top: 0;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.sidebar li {
-    margin-bottom: 10px;
-    font-size: 0.9rem;
+.trending-list {
+    padding-left: 25px;
 }
 
 .trending-list li {
-    margin-bottom: 18px;
-    line-height: 1.4;
+    margin-bottom: 22px;
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
+
+.sidebar .artist {
+    color: #555;
+    font-size: 0.95rem;
+}
+
