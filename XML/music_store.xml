@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MusicStore SYSTEM "music_store.dtd">
-<?xml-stylesheet type="text/xsl" href="music_store.xsl"?>
+<!DOCTYPE MusicStore SYSTEM "music_store.dtd"> <!--  Referring to attributes and rules in DTD file -->
+<?xml-stylesheet type="text/xsl" href="music_store.xsl"?> <!-- Referring to xsl file, makes XML file into website -->
 
 <MusicStore>
+
+<!-- Children Elements -->
     <!-- Instruments -->
     <Instrument id="I001">
         <InstrumentName>Stratocaster</InstrumentName>
