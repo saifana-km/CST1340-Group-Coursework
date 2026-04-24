@@ -345,19 +345,21 @@ th {
     border-top: 2px solid #ccc;
 }
 
-/* Review boxes below about us page */
+/* Review boxes below about us, centered to page */
 .reviews {
     text-align: center;
     margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Review box heading style */
 .reviews h2 {
     font-size: 2rem;
     margin-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Review box style  */
 .review {
     margin: 25px auto;
     max-width: 600px;
@@ -367,6 +369,7 @@ th {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Stars for review style */
 .stars {
     font-size: 1.5rem;
     color: #6fb5ff;
@@ -374,12 +377,14 @@ th {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Review box text style */
 .review .text {
     font-size: 1rem;
     margin-bottom: 8px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Review box author style */
 .review .author {
     font-size: 0.9rem;
     color: #555;
