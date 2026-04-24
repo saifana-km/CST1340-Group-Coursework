@@ -1,14 +1,15 @@
 <!--DATA SCHEMA STRUCTURE-->
-<!ELEMENT MusicStore (Instrument*, Vinyl*, Customer*, Employee*)>
+<!-- Root Element -->
+<!ELEMENT MusicStore (Instrument*, Vinyl*, Customer*, Employee*)> 
 
+<!-- Child Elements -->
 <!-- INSTRUMENT -->
 <!ELEMENT Instrument (InstrumentName, Brand, InstrumentPrice, InstrumentImage)>
-<!ATTLIST Instrument id ID #REQUIRED>
+<!ATTLIST Instrument id ID #REQUIRED> <!-- Required attribute -->
 <!ELEMENT InstrumentName (#PCDATA)>
 <!ELEMENT Brand (#PCDATA)>
 <!ELEMENT InstrumentPrice (#PCDATA)>
 <!ELEMENT InstrumentImage (#PCDATA)>
-
 
 <!-- VINYL -->
 <!ELEMENT Vinyl (Title, Artist, Genre, VinylPrice, VinylImage)>
