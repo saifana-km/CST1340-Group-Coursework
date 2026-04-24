@@ -137,6 +137,7 @@ th {
 }
 
 /*Home page*/
+/*Gives the section a white back grounf and aligns the text to the center*/
 .welcome {
 	background: white;
 	position: relative;
@@ -145,6 +146,7 @@ th {
 }
 
 /*Welcome message font style*/
+/*Changes the style for .welcome h1*/
 .welcome h1 {
 	color: black;
 	font-family: Arial, Helvetica, sans-serif;
@@ -156,6 +158,7 @@ th {
 }
 
 /*Welcome logo*/
+/*Inline logo is resized and positioned to match .welcome h1*/
 .logo-inline {
 	height: 100px;
 	width: auto;
@@ -165,6 +168,7 @@ th {
 }
 
 /*Welcome message style*/
+/*Changes the font style of .welcome p, uses the same format as h1 but with minor changes*/
 .welcome p {
 	color: black;
 	font-family: Arial, Helvetica, sans-serif;
@@ -176,7 +180,8 @@ th {
     text-decoration: none;
 }
 
-/*word gradient highlight*/
+/*Word gradient highlight*/
+/*Changes the color of a word in class .gradient-word*/
 .gradient-word {
 	background: linear-gradient(#6fb5ff, #714eff);
 	-webkit-background-clip: text;
@@ -184,6 +189,7 @@ th {
 }
 
 /*Section Shadow*/
+/*Adds a light shadow to the welcome section*/
 .welcome::after {
 	content: "";
 	position: absolute;
@@ -196,6 +202,7 @@ th {
 }
 
 /*Home page image*/
+/*Changes the size and position of the banner image in the homepage*/
 .shopnow img {
 	height: 180px;
 	width: auto;
@@ -205,6 +212,7 @@ th {
 }
 
 /*Shop now button*/
+/*Changes the default style of the button to have a gradient background and is resized to fit the page better*/
 .shopnow button {
 	background-image: linear-gradient(#6fb5ff, #714eff); /* Adds gradient as button background */
 	border: none;
@@ -222,13 +230,15 @@ th {
 }
 
 /*Button text style*/
+/*Changes the text style of the button text to be white*/
 .shopnow button a {
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
-/*About Us Page*/ 
+/*About Us Page*/
+/*About Us section is given a white background and follows almost the same format as the welcome section*/
 .AboutUs {
 	position: relative;
     font-family: Arial, Helvetica, sans-serif;
@@ -241,6 +251,7 @@ th {
 }
 
 /*About us text style*/
+/*Changes the text style in .AboutUs h1, the same text format as the other text elements is observed*/
 .AboutUs h1 {
 	color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -250,6 +261,7 @@ th {
 }
 
 /*Message text style*/
+/*Changed text style for .AboutUs p*/
 .AboutUs p {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: normal;
@@ -261,6 +273,7 @@ th {
 }
 
 /*Section shadow*/
+/*Adds a shadow after the section, uses the same format as the other section shadow*/
 .AboutUs::After {
 	content: "";
 	position: absolute;
@@ -273,6 +286,7 @@ th {
 }
 
 /*Section text style*/
+/*Team section text style is changed to match the other texts*/
 .Team {
 	position: relative;
     font-family: Arial, Helvetica, sans-serif;
@@ -285,6 +299,7 @@ th {
 }
 
 /*Module assessment text style*/
+/*.Team h2 and h3 both use the same styling for text*/
 .Team h2 {
 	color: black;
 	font-family: Arial, Helvetica, sans-serif;
@@ -308,20 +323,21 @@ th {
     text-decoration: none;
 }
 	
-/*Single word gradient highlight*/	
+/*Single word gradient highlight*/
 .gradient-word {
 	background: linear-gradient(#6fb5ff, #714eff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }	
 
-/*Team image*/
+/*Team image is resized and repositioned to fit the page better*/
 .Team img {
 	width: 700px;
 	position: relative;
 	top: -35px;
 }
 
+/*Adds a divider before the reviews section starts*/
 .section-divider {
     width: 60%;
     margin: 50px auto;
@@ -330,7 +346,6 @@ th {
 }
 
 /* Review boxes below about us page */
-
 .reviews {
     text-align: center;
     margin-top: 40px;
