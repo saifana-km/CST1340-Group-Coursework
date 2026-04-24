@@ -1,4 +1,3 @@
-<!--PLACEHOLDER FOR NOW-->
 <!--DATA SCHEMA STRUCTURE-->
 <!ELEMENT MusicStore (Instrument*, Vinyl*, Customer*, Employee*)>
 
